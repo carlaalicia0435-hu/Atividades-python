@@ -1,11 +1,4 @@
-def carlas_money(dinheiro,compras):
-    if(dinheiro>=compras):
-        print("Compra bem sucedida" )
-    else:
-        print(f"compra não sucedida Faltam: {compras - dinheiro} reais")     
-
-
-dinheiro = float(input("Quanto de dinheiro a Carla tem? "))
-compras = float(input("Qual o valor das compras? "))
-
-carlas_money(dinheiro,compras)
+def area(altura,comprimento):
+    area = altura * comprimento
+    return area
+print("A área do retângulo é:",area(5,3))

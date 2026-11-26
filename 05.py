@@ -1,8 +1,8 @@
-list = [] 
-for x in range(3):
-    convidados = str(input("Digite o nome do convidado: "))
-    list+=[convidados]
-desista = str(input("Digite o nome do convidado para remover: "))
-list.remove(desista)
-print(list)
-
+def contar_vogais(texto): 
+    vogais = "aeiouAEIOU"
+    x=0
+    for letra in texto:
+        if letra in vogais:
+            x+=1
+    return x
+print(contar_vogais("Babado"))

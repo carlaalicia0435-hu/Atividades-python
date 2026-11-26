@@ -1,3 +1,8 @@
-list=[7.5, 8.0, 6.0, 9.5]
-list[2]= 7.0
-print(list) 
+def maior_de_tres(a, b, c):
+    if a>=b and a>=c:
+        return a 
+    elif b>=a and b>=c:
+        return b
+    else: 
+        return c
+print(maior_de_tres(5,8,9))
